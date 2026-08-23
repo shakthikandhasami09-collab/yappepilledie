@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yappe webby :3</title>
+
+    
+    <link rel="stylesheet" href="yapyapyap.css">
+</head>
+
+<body>
+
+   <div id="passwordBox">
+
+    <video class="sneak-peek" autoplay muted loop playsinline>
+        <source src="sneakpeek.mp4" type="video/mp4">
+        
+    </video>
+
+    <h2>🔒 Enter Password</h2>
+
+    <input type="password" id="passwordInput">
+
+    <button onclick="checkPassword()">Enter</button>
+
+    <p id="error"></p>
+
+</div>
+
+
+    <!-- Your actual website -->
+    <div id="website">
+        <h1>Hai fellow yappelings :3</h1>
+
+        <p>This is yappe heaven</p>
+
+        <div id="intro">
+
+        <p>Yappe = yamal x mbappe</p>
+
+        <p>over here, we run a strict dictatorship</p>
+
+        <p>Yamal is the younger obsessed top while mbappe is a older bratty bottom</p>
+
+
+
+    </div>
+
+    <div id="table">
+
+    <div class="table-section">
+        <div>
+            <p>Reasons why Yamal is obsessed with Mbappe:</p>
+
+            <table class="yappe-table">
+                <tr>
+                    <td>His eyes</td>
+                </tr>
+                <tr>
+                    <td>His thighs</td>
+                </tr>
+                <tr>
+                    <td>His smile</td>
+                </tr>
+                <tr>
+                    <td>His ass</td>
+                </tr>
+                <tr>
+                    <td>His passion</td>
+                </tr>
+            </table>
+        </div>
+
+        <img src="yamal.jpg" class="table-picture">
+    </div>
+
+
+    <div class="table-section">
+        <div>
+            <p>Reasons why Mbappe loves Yamal:</p>
+
+            <table class="yappe-table">
+                <tr>
+                    <td>His boyish charm</td>
+                </tr>
+                <tr>
+                    <td>His cuteness</td>
+                </tr>
+                <tr>
+                    <td>His obsession</td>
+                </tr>
+                <tr>
+                    <td>His braces</td>
+                </tr>
+                <tr>
+                    <td>His cock</td>
+                </tr>
+            </table>
+        </div>
+
+        <img src="mbappe.jpg" class="table-picture">
+    </div>
+
+</div>
+
+<div class="quiz-container">
+
+        <h1>Yappe Quiz</h1>
+
+        <p class="instructions">
+            Answer all 6 questions. Each question is worth 2 marks.
+            Total: 12 marks.
+        </p>
+
+
+        <!-- Question 1 -->
+        <div class="question">
+            <h2>Question 1 — 2 marks</h2>
+
+            <p>Who is the top?</p>
+
+            <label>
+                <input type="radio" name="q1" value="A">
+                A. Yamal
+            </label>
+
+            <label>
+                <input type="radio" name="q1" value="B">
+                B. Mbappe
+            </label>
+        </div>
+
+
+        <!-- Question 2 -->
+        <div class="question">
+            <h2>Question 2 — 2 marks</h2>
+
+            <p>Who is the bottom?</p>
+
+            <label>
+                <input type="radio" name="q2" value="A">
+                A. Yamal
+            </label>
+
+            <label>
+                <input type="radio" name="q2" value="B">
+                B. Mbappe
+            </label>
+        </div>
+
+
+        <!-- Question 3 -->
+        <div class="question">
+            <h2>Question 3 — 2 marks</h2>
+
+            <p>Who fell first?</p>
+
+            <label>
+                <input type="radio" name="q3" value="A">
+                A. Yamal
+            </label>
+
+            <label>
+                <input type="radio" name="q3" value="B">
+                B. Mbappe
+            </label>
+        </div>
+
+
+        <!-- Question 4 -->
+        <div class="question">
+            <h2>Question 4 — 2 marks</h2>
+
+            <p>Who fell harder?</p>
+
+            <label>
+                <input type="radio" name="q4" value="A">
+                A. Yamal
+            </label>
+
+            <label>
+                <input type="radio" name="q4" value="B">
+                B. Mbappe
+            </label>
+        </div>
+
+
+        <!-- Question 5 -->
+        <div class="question">
+            <h2>Question 5 — 2 marks</h2>
+
+            <p>What's Yamal's favourite thing about Mbappe?</p>
+
+            <label>
+                <input type="radio" name="q5" value="A">
+                A. His ass
+            </label>
+
+            <label>
+                <input type="radio" name="q5" value="B">
+                B. His eyes
+            </label>
+
+            <label>
+                <input type="radio" name="q5" value="C">
+                C. His laugh
+            </label>
+
+            <label>
+                <input type="radio" name="q5" value="D">
+                D. His body
+            </label>
+
+            <label>
+                <input type="radio" name="q5" value="E">
+                E. His smile
+            </label>
+        </div>
+
+
+        <!-- Question 6 -->
+        <div class="question">
+            <h2>Question 6 — 2 marks</h2>
+
+            <p>What's Mbappe's favourite thing about Yamal?</p>
+
+            <label>
+                <input type="radio" name="q6" value="A">
+                A. His charm
+            </label>
+
+            <label>
+                <input type="radio" name="q6" value="B">
+                B. His swag
+            </label>
+
+            <label>
+                <input type="radio" name="q6" value="C">
+                C. His dick
+            </label>
+
+            <label>
+                <input type="radio" name="q6" value="D">
+                D. His braces
+            </label>
+
+            <label>
+                <input type="radio" name="q6" value="E">
+                E. His obsession
+            </label>
+        </div>
+
+
+        <button onclick="submitQuiz()">Submit Quiz</button>
+
+        <div id="result"></div>
+
+    </div>
+
+    </div>
+
+    
+
+
+    <!-- Locked screen -->
+    <div id="locked">
+        <h1>🔒 ACCESS DENIED</h1>
+
+        <p>You entered the wrong password.</p>
+
+        <p>You are locked out.</p>
+    </div>
+
+     
+    
+    <script src="yapyapyap.js"></script>
+
+</body>
+</html>
